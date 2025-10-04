@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio de Notas</title>
+</head>
+<body>
+<div class="container">
+    <h1>Calcular Promedio de Notas</h1>
+    <form id="formNotas">
+      <input type="number" id="nota1" placeholder="Nota 1" required>
+      <input type="number" id="nota2" placeholder="Nota 2" required>
+      <input type="number" id="nota3" placeholder="Nota 3" required>
+      <input type="number" id="nota4" placeholder="Nota 4" required>
+      <input type="number" id="nota5" placeholder="Nota 5" required>
+      <button type="button" onclick="calcularPromedio()">Calcular</button>
+    </form>
+    <p id="resultado"></p>
+  </div>
+  <div class="container">
+  <form>
+    <div class="form-table">
+      <div class="form-row">
+        <div class="form-cell"><label for="nombre">Nombre:</label></div>
+        <div class="form-cell"><input type="text" id="nombre" name="nombre"></div>
+      </div>
+      <div class="form-row">
+        <div class="form-cell"><label for="nota">Nota:</label></div>
+        <div class="form-cell"><input type="number" id="nota" name="nota"></div>
+      </div>
+      <div class="form-row">
+        <div class="form-cell"></div>
+        <div class="form-cell"><button type="submit">Calcular</button></div>
+      </div>
+    </div>
+  </form>
+</div>
+  <script src="script.js"></script>
+    
+</body>
+</html>
